@@ -60,7 +60,7 @@ a:any-link {
   margin-top: none;
 }
 
-# td {
+td {
   border: 1px darkolivegreen solid;
   text-align: justify;
   border-collapse: collapse;
