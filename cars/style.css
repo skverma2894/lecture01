@@ -1,42 +1,68 @@
+#top {
+  background-color: #063827;
+  font-family: "Courier New", Courier, monospace;
+  height: 150px;
+  padding-top: 50px;
+}
+
 h1 {
   color: #a5f1b8;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
 
-#top {
-  background-color: #063827;
-  font-family: "Courier New", Courier, monospace;
-  height: 250;
-}
-#bottom {
-  background-color: #035036;
-  font-family: "Courier New", Courier, monospace;
-  height: 250;
-}
-#middle {
-  background-color: #101a16;
-  font-family: "Courier New", Courier, monospace;
-  color: white;
-}
-
-table {
+#description {
   border: 2px darkolivegreen solid;
   width: 100%;
   border-collapse: collapse;
   background-color: #232927;
+  color: #f8ecb8;
+  text-align: center;
+  margin-top: 50px;
 }
 
-td {
+a:any-link {
+  color: #f8ecb8;
+}
+
+.desc:hover {
+  background-color: rgb(0, 7, 2);
+}
+
+#middle {
+  background-color: #8eb4a5;
+  font-family: "Times New Roman", Times, serif, Geneva, Tahoma, sans-serif;
+  color: rgb(30, 32, 32);
+  float: left;
+}
+
+#second_table {
+  width: 100%;
+}
+
+.pos {
+  text-align: center;
+}
+
+#bottom {
+  background-color: #063827;
+  font-family: "Courier New", Courier, monospace;
+  height: 250;
+}
+
+#description2 {
+  border: 2px darkolivegreen solid;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #232927;
+  color: #f8ecb8;
+  text-align: center;
+  margin-top: none;
+}
+
+# td {
   border: 1px darkolivegreen solid;
   text-align: justify;
   border-collapse: collapse;
   color: rgb(212, 240, 206);
-}
-td:hover {
-  background-color: rgb(0, 7, 2);
-}
-
-.cars {
-  border: none;
 }
